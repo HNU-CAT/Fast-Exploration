@@ -27,4 +27,7 @@
     <node pkg="px4ctrl" type="takeoff.sh" name="$(arg namespace)_takeoff" output="screen">
         <env name="DRONE_ID" value="$(arg drone_id)" />
     </node>
+    <node pkg="px4ctrl" type="increase_frequency.sh" name="$(arg namespace)_increase_frequency" output="screen">
+        <env name="DRONE_ID" value="$(arg drone_id)" />
+    </node>
 </launch>

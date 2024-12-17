@@ -38,13 +38,13 @@ And here is the [video](https://www.bilibili.com/video/BV11uknY1EcR/?share_sourc
 
 ## Try Real Fly (todo)
 
- 1. Change Topic Name in launch file.
+ 1. Change ROS Topic Name in Launch File.
 
  2. Add [VINS](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) for location.
 
  3. Change [Parm](https://github.com/XXLiu-HNU/Fast-Exploration/blob/main/src/realflight_modules/px4ctrl/config/ctrl_param_fpv.yaml) in px4ctrl for your Quadrotor
 
- 4. Something Maybe ...
+ 4. Something Else Possible ...
 
 ## Reference Projects
 1. [XTDroen](https://github.com/robin-shaun/XTDrone)   

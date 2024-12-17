@@ -8,7 +8,7 @@ This document is an extension of [FUEL](https://github.com/HKUST-Aerial-Robotics
 2. Optimized the visual interface
 
 ## Achieve results：
-![ezgif-5-42c8026229](https://github.com/user-attachments/assets/75632834-749c-4a6a-b7a1-4f90fc709405)
+![GIF](https://github.com/user-attachments/assets/0910148c-72ab-4789-aa7e-cfd1d3641243)
 
 And here is the [video](https://www.bilibili.com/video/BV11uknY1EcR/?share_source=copy_web&vd_source=694800f4f1ae99186a15066decbc1bc2)(Bilibili)
 

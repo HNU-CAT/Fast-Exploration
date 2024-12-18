@@ -67,3 +67,5 @@ add_executable(load_obj test/load_obj.cpp)
 target_link_libraries(load_obj
   ${catkin_LIBRARIES} ${PCL_LIBRARIES}
 )
+catkin_install_python(PROGRAMS scripts/vis.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})

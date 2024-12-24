@@ -48,8 +48,9 @@ And here is the [video](https://www.bilibili.com/video/BV11uknY1EcR/?share_sourc
  4. Something Else Possible ...
 
 ## To-Do 24.12.24
-1. Single  to Multiple
-2. Remove other uav when mapping 
+1. Single  to Multiple ([Racer](https://github.com/SYSU-STAR/RACER))
+2. Remove other uav when mapping  ([Drone detect](https://github.com/ZJU-FAST-Lab/ego-planner-swarm/tree/master/src/planner/drone_detect))
+   
 ## Reference Projects
 1. [XTDroen](https://github.com/robin-shaun/XTDrone)   
 The simulation platform of the experiment is modified based on this project. Interested readers can refer to the [document](https://www.yuque.com/xtdrone/manual_cn/install_scripts) for reproduction

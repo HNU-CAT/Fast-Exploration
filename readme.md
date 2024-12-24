@@ -8,8 +8,9 @@ This document is an extension of [FUEL](https://github.com/HKUST-Aerial-Robotics
 2. Optimized the visual interface
 
 ## Achieve results：
-![GIF](https://github.com/user-attachments/assets/0910148c-72ab-4789-aa7e-cfd1d3641243)
+![sim](./files/sim.gif)
 
+![real](./files/real.gif)
 And here is the [video](https://www.bilibili.com/video/BV11uknY1EcR/?share_source=copy_web&vd_source=694800f4f1ae99186a15066decbc1bc2)(Bilibili)
 
 ## How to use: 
@@ -36,7 +37,7 @@ And here is the [video](https://www.bilibili.com/video/BV11uknY1EcR/?share_sourc
    `roslaunch ftxui_ros single_start.launch`
 
 
-## Try Real Fly (todo)
+## Try Real Fly
 
  1. Change ROS Topic Name in Launch File.
 
@@ -46,10 +47,13 @@ And here is the [video](https://www.bilibili.com/video/BV11uknY1EcR/?share_sourc
 
  4. Something Else Possible ...
 
+## To-Do 24.12.24
+1. Single  to Multiple
+2. Remove other uav when mapping 
 ## Reference Projects
 1. [XTDroen](https://github.com/robin-shaun/XTDrone)   
 The simulation platform of the experiment is modified based on this project. Interested readers can refer to the [document](https://www.yuque.com/xtdrone/manual_cn/install_scripts) for reproduction
-2. [Fast-Drone-250](https://github.com/ZJU-FAST-Lab/Fast-Drone-250)   
+1. [Fast-Drone-250](https://github.com/ZJU-FAST-Lab/Fast-Drone-250)   
 The controller module comes from this project, but this project is only for real objects and a single drone.
-3. [FUEL](https://github.com/HKUST-Aerial-Robotics/FUEL)   
+1. [FUEL](https://github.com/HKUST-Aerial-Robotics/FUEL)   
 The  planning part comes from this project.

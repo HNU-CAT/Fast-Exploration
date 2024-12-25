@@ -23,16 +23,29 @@ And here is the [video](https://www.bilibili.com/video/BV11uknY1EcR/?share_sourc
 3. Follow this [link](https://www.yuque.com/xtdrone/manual_cn/pose_groundtruth) to set the location
 
 4. Start planer
+   ```
+   git clone https://github.com/HNU-CAT/Fast-Exploration.git
+   cd Fast-Exploration
+   catkin_make # This step requires an internet connection and patience
+   ```
+   
 
-   `roslaunch exploration_manager rviz.launch`
+   ```
+   source devel/setup.
+   bashroslaunch exploration_manager rviz.launch # for vis
+   ```
+   ```
+   source devel/setup.
+   roslaunch exploration_manager exploration.launch # for plan
+   ```
 
-   `roslaunch exploration_manager exploration.launch`
+6. Start Controller
+   ```
+   source devel/setup.
+   roslaunch px4ctrl singl_run.launch # for ctrl
+   ```
 
-5. Start Controller
-
-   `roslaunch px4ctrl singl_run.launch`
-
-6. Start Monitor
+7. Start Monitor
 
    `roslaunch ftxui_ros single_start.launch`
 

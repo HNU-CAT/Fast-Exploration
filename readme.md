@@ -32,7 +32,7 @@ And here is the [video](https://www.bilibili.com/video/BV11uknY1EcR/?share_sourc
 
    ```
    source devel/setup.
-   bashroslaunch exploration_manager rviz.launch # for vis
+   roslaunch exploration_manager rviz.launch # for vis
    ```
    ```
    source devel/setup.
